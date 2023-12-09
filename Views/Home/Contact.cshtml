@@ -1,0 +1,49 @@
+@{
+    ViewData["Title"] = "Contáctame!";
+}
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="./">Home</a></li>
+  <li class="breadcrumb-item active">Contáctame</li>
+</ol>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 mx-auto">
+        <h1>@ViewData["Title"]</h1>
+            <div class="card">
+                <div class="card-body">
+    
+                    @using (Html.BeginForm("EnviarCorreo", "Contacto", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+    
+                        <div class="form-group">
+                            <label for="Nombre">Tengo el gusto con:</label>
+                            <input type="text" name="Nombre" required class="form-control" />
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="Correo">Correo electrónico:</label>
+                            <input type="email" name="Correo" required class="form-control" />
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="Correo">Celular:</label>
+                            <input type="phone" name="Celular" class="form-control" />
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="Mensaje">¿Como puedo ayudarle?:</label>
+                            <textarea name="Mensaje" required class="form-control"></textarea>
+                        </div>
+    
+                        <br/>
+    
+                        <button type="submit" class="btn btn-secondary">Enviar Mensaje</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

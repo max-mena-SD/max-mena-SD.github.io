@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="Name" xml:space="preserve">
+        <value>Max Alonso Mena Arguedas</value>
+        <comment>Nombre propio del editor de la página.</comment>
+    </data>
+    <data name="Description" xml:space="preserve">
+        <value>Desarrollador de Software | Administrador de proyectos | Analista de datos | Analista de negocios</value>
+        <comment>Profesiones</comment>
+    </data>
+    <data name="ProfessionalSummaryTitle" xml:space="preserve">
+        <value>Resumen Profesional:</value>
+        <comment>Titulo resumen profesional</comment>
+    </data>
+</root>

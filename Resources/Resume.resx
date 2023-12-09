@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="Name" xml:space="preserve">
+        <value>Max Alonso Mena Arguedas</value>
+        <comment>Website's editor name</comment>
+    </data>
+    <data name="Description" xml:space="preserve">
+        <value>Software Developer | Project Manager | Data Analyst | Business Analyst</value>
+        <comment>Professions</comment>
+    </data>
+    <data name="ProfessionalSummaryTitle" xml:space="preserve">
+        <value>Professional Summary:</value>
+        <comment>Professional summary title.</comment>
+    </data>
+</root>
